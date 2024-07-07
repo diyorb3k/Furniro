@@ -356,3 +356,13 @@ color: rgba(0, 0, 0, 1);
     transition: 0.1 ease ease;
     color: red;
 }
+
+
+.formField{
+  position:absolute;
+  margin-top: -60px;
+  margin-left: 900px;
+}
+.inputt{
+  padding: 5px;
+}

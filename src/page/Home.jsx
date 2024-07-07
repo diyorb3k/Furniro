@@ -65,6 +65,9 @@ const Home = () => {
     <>
       <div className="home">
         <div className="container">
+        <form className="formField" action="">
+          <input className="inputt" type="text" placeholder='Search...' value={query} onChange={(e) => setQuery(e.target.value)} />
+        </form>
           <div className="card_hero">
             <p>New Arrival</p>
             <h1>Discover Our New Collection</h1>

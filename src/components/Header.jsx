@@ -22,12 +22,13 @@ const Header = () => {
         <NavLink className="navbarlink" to="/contact">Cont</NavLink>
     </div>
     <div className="imggg">
+
+    <div class="group">
+ 
+</div>
+
       <img src={exampleImage2} alt="" />
-      <form>
-	<label for="search">Search</label>
-	<input required="" pattern=".*\S.*" type="search" class="input" id="search"/>
-	<span class="caret"></span>
-</form>
+      {/* <img src={exampleImage3} alt="" /> */}
       <img src={exampleImage4} alt="" />
       <img src={exampleImage5} alt="" />
     </div>

@@ -62,6 +62,9 @@ const Shop = () => {
    <>
   <div className='heroshop'>
     <div className='container'>
+    <form className="formField" action="">
+          <input className="inputt" type="text" placeholder='Search...' value={query} onChange={(e) => setQuery(e.target.value)} />
+        </form>
     <h3 className='shop'>Shop</h3>
           <div className='header_link'>
           <NavLink className="herolink1" to={'/'}>
