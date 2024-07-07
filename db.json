@@ -1,7 +1,7 @@
 {
     "user": [
       {
-        "img": "./src/assets/API/API1.png",
+        "img": "https://i.imgur.com/yb9UQKL.jpeg",
         "id": 1,
         "title": "Syltherine",
         "body": "Stylish cafe chair",
@@ -62,7 +62,7 @@
     ],
     "products": [
         {
-            "img": "./src/assets/API/ID1.png",
+            "img": "https://i.imgur.com/yb9UQKL.jpeg",
             "id": 1,
             "title": "Syltherine",
             "body": "Stylish cafe chairr",

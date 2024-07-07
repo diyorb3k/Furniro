@@ -17,9 +17,6 @@ import rasim6 from "../assets/API/rasim6.png";
 import rasim7 from "../assets/API/rasim7.png";
 import rasim8 from "../assets/API/rasim8.png";
 import rasim9 from "../assets/API/rasim9.png";
-
-
-
 import { useState, useEffect } from "react";
 import axios from "axios";
 import "../assets/API/API1.png";
@@ -51,7 +48,7 @@ const Home = () => {
       console.log(el);
       return (
         <div className="form" key={el.id}>
-          <img src={el?.img} alt="is not Defaunt" />
+          <img className="APIimg" src={el?.img} alt="is not Defaunt" />
           <p className="titled">{el.title.slice(0, 95)}</p>
 
           <span>{el.body}</span>
