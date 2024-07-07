@@ -1,0 +1,184 @@
+{
+    "user": [
+      {
+        "img": "./src/assets/API/API1.png",
+        "id": 1,
+        "title": "Syltherine",
+        "body": "Stylish cafe chair",
+        "narxi": "Rp 2.500.000",
+        "istoriya": "Rp 3.500.000"
+      },
+      {
+        "img": "./src/assets/API/API2.png",
+        "id": 2,
+        "title": "Leviosa",
+        "body": "Stylish cafe chair",
+        "narxi": "Rp 2.500.000"
+      },
+      {
+        "img": "./src/assets/API/API3.png",
+        "id": 3,
+        "title": "Lolito",
+        "body": "Luxury big sofa",
+        "narxi": "Rp 7.000.000",
+        "istoriya": "Rp 14.000.000"
+      },
+      {
+        "img": "./src/assets/API/API4.png",
+        "id": 4,
+        "title": "Respira",
+        "body": "Outdoor bar table and stool",
+        "narxi": "Rp 500.000"
+      },
+      {
+        "img": "./src/assets/API/API5.png",
+        "id": 5,
+        "title": "Grifo",
+        "body": "Night lamp",
+        "narxi": "Rp 1.500.000"
+      },
+      {
+        "img": "./src/assets/API/API6.png",
+        "id": 6,
+        "title": "Muggo",
+        "body": "Small mug",
+        "narxi": "Rp 150.000"
+      },
+      {
+        "img": "./src/assets/API/Api7.png",
+        "id": 7,
+        "title": "Pingky",
+        "body": "Cute bed set",
+        "narxi": "Rp 7.000.000",
+        "istoriya": "Rp 14.000.000"
+      },
+      {
+        "img": "./src/assets/API/Api8.png",
+        "id": 8,
+        "title": "Potty",
+        "body": "Minimalist flower pot",
+        "narxi": "Rp 500.000"
+      }
+    ],
+    "products": [
+        {
+            "img": "./src/assets/API/ID1.png",
+            "id": 1,
+            "title": "Syltherine",
+            "body": "Stylish cafe chairr",
+            "narxi": "Rp 2.500.000",
+            "istoriya": "Rp 3.500.000"
+          },
+          {
+            "img": "./src/assets/API/ID2.png",
+            "id": 2,
+            "title": "Leviosa",
+            "body": "Stylish cafe chair",
+            "narxi": "Rp 2.500.000"
+          },
+          {
+            "img": "./src/assets/API/ID3.png",
+            "id": 3,
+            "title": "Lolito",
+            "body": "Luxury big sofa",
+            "narxi": "Rp 7.000.000",
+            "istoriya": "Rp 14.000.000"
+          },
+          {
+            "img": "./src/assets/API/ID4.png",
+            "id": 4,
+            "title": "Respira",
+            "body": "Outdoor bar table and stool",
+            "narxi": "Rp 500.000"
+          },
+          {
+            "img": "./src/assets/API/ID5.png",
+            "id": 5,
+            "title": "Syltherine",
+            "body": "Stylish cafe chair",
+            "narxi": "Rp 2.500.000",
+            "istoriya": "Rp 3.500.000"
+
+          },
+          {
+            "img": "./src/assets/API/ID2.png",
+            "id": 6,
+            "title": "Leviosa",
+            "body": "Stylish cafe chair",
+            "narxi": "Rp 2.500.000"
+          },
+          {
+            "img": "./src/assets/API/ID7.png",
+            "id": 7,
+            "title": "Lolito",
+            "body": "Luxury big sofa",
+            "narxi": "Rp 7.000.000",
+            "istoriya": "Rp 14.000.000"
+          },
+          {
+            "img": "./src/assets/API/ID8.png",
+            "id": 8,
+            "title": "Respira",
+            "body": "Outdoor bar table and stool",
+            "narxi": "Rp 500.000"
+          }, {
+            "img": "./src/assets/API/ID9.png",
+            "id": 9,
+            "title": "Syltherine",
+            "body": "Stylish cafe chair",
+            "narxi": "Rp 2.500.000",
+            "istoriya": "Rp 3.500.000"
+          }, {
+            "img": "./src/assets/API/ID10.png",
+            "id": 10,
+            "title": "Leviosa",
+            "body": "Stylish cafe chair",
+            "narxi": "Rp 2.500.000",
+            "istoriya": ""
+          }, {
+            "img": "./src/assets/API/ID11.png",
+            "id": 11,
+            "title": "Lolito",
+            "body": "Luxury big sofa",
+            "narxi": "Rp 7.000.000",
+            "istoriya": "Rp 14.000.000"
+          }, {
+            "img": "./src/assets/API/ID12.png",
+            "id": 12,
+            "title": "Respira",
+            "body": "Outdoor bar table and stool",
+            "narxi": "Rp 500.000",
+            "istoriya": "Rp 3.500.000"
+          }, {
+            "img": "./src/assets/API/ID13.png",
+            "id": 13,
+            "title": "Leviosa",
+            "body": "Stylish cafe chair",
+            "narxi": "Rp 2.500.000",
+            "istoriya": ""
+          }, {
+            "img": "./src/assets/API/ID2.png",
+            "id": 14,
+            "title": "Leviosa",
+            "body": "Luxury big sofa",
+            "narxi": "Rp 7.000.000",
+            "istoriya": "Rp 14.000.000"
+          }, {
+            "img": "./src/assets/API/ID15.png",
+            "id": 15,
+            "title": "Lolito",
+            "body": "Outdoor bar table and stool",
+            "narxi": "Rp 500.000",
+            "istoriya": ""
+          },
+          {
+            "img": "./src/assets/API/ID4.png",
+            "id": 15,
+            "title": "Respira",
+            "body": "Outdoor bar table and stool",
+            "narxi": "Rp 500.000",
+            "istoriya": ""
+          }
+    ]
+  }
+  
