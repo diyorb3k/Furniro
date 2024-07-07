@@ -35,7 +35,7 @@ const Shop = () => {
       console.log(el);
       return (
         <div className="form" key={el.id}>
-          <img src={el?.img} alt="is not Defaunt" />
+          <img className="APIimg" src={el?.img} alt="is not Defaunt" />
           <p className="titled">{el.title.slice(0, 95)}</p>
 
           <span>{el.body}</span>
