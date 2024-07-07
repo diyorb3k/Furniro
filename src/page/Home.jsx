@@ -36,7 +36,7 @@ const Home = () => {
   const [query, setQuery] = useState("");
   useEffect(() => {
     axios
-      .get("http://localhost:3000/user")
+      .get("http://localhost:4005/user")
       .then((res) => {
         setAlbom(res?.data);
       })
