@@ -1,4 +1,4 @@
-import { NavLink } from 'react-router-dom'
+import { Link, NavLink } from 'react-router-dom'
 import rasimsvg from '../assets/API/Vector (2).svg'
 import rasimecon from '../assets/API/system-uicons_filtering.svg'
 import rasimecon2 from '../assets/API/ci_grid-big-round.svg'
@@ -34,10 +34,10 @@ const Shop = () => {
     ?.map((el) => {
       console.log(el);
       return (
-        <div className="form" key={el.id}>
+        <div className="form card" key={el.id}>
+          <Link to={`/corzinka/${el?.id}`}><p class="text">Add to cart</p></Link>
           <img className="APIimg" src={el?.img} alt="is not Defaunt" />
-          <p className="titled">{el.title.slice(0, 95)}</p>
-
+           <Link to={`/Singilpage/${el?.id}`}><p className="titled">{el.title.slice(0, 95)}</p></Link>
           <span>{el.body}</span>
           <div className="istoriyaiiscena">
             <p>{el.narxi}</p>
@@ -71,9 +71,9 @@ const Shop = () => {
              Home
              </NavLink>
              <img src={rasimsvg} alt="" />
-             <NavLink className="herolink2" to={'Shop'}>
+             <Link className="herolink2" to={'/Shop/'}>
              shop
-             </NavLink>
+             </Link>
           </div>
 
     </div>

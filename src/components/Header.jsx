@@ -23,7 +23,7 @@ const Header = () => {
         <img src={exampleImage2} alt="" />
         <img src={exampleImage3} alt="" />
         <img src={exampleImage4} alt="" />
-        <Link to="/corzinka"><SlBasket/></Link>
+        <Link to="corzinka/2"><SlBasket/></Link>
       </div>
     </div>
   );

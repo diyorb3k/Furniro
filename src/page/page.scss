@@ -866,6 +866,7 @@ h1 {
   padding: 3px 8px;
   background-color: rgba(249, 241, 231, 1);
   border-radius: 10px;
+  max-width: 100px;
 }
 
 .APIimg:hover {
@@ -1011,6 +1012,14 @@ h1 {
   display: flex;
   gap: 82px;
 }
+.titled{
+  font-family: Poppins;
+font-size: 24px;
+font-weight: 600;
+line-height: 28.8px;
+text-align: left;
+color: rgba(58, 58, 58, 1);
+}
 .bar {
   display: flex;
   gap: 16px;
@@ -1032,10 +1041,9 @@ h1 {
     font-weight: 400;
     line-height: 19.5px;
     text-align: left;
-    background-color:rgba(249, 241, 231, 1)
-    ;
+    background-color: rgba(249, 241, 231, 1);
     padding: 5px 8px;
-    color:black;
+    color: black;
     border-radius: 5px;
     width: 30px;
   }
@@ -1054,10 +1062,9 @@ h1 {
     font-weight: 400;
     line-height: 19.5px;
     text-align: left;
-    background-color:rgba(249, 241, 231, 1)
-    ;
+    background-color: rgba(249, 241, 231, 1);
     padding: 5px 8px;
-    color:black;
+    color: black;
     border-radius: 5px;
     width: 30px;
   }
@@ -1078,11 +1085,76 @@ h1 {
   color: rgba(159, 159, 159, 1);
 }
 
-.colors{
+.colors {
   display: flex;
   gap: 16px;
-
-
-
-
+}
+.layt {
+  gap: 35px;
+  padding: 10px 12px 20px 15px;
+  margin-top: 22px;
+  display: flex;
+  align-items: center;
+  border: 1px solid rgba(159, 159, 159, 1);
+  max-width: 153px;
+  border-radius: 10px;
+  .btnminus {
+    cursor: pointer;
+    border: none;
+    background-color: transparent;
+    font-family: Poppins;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    color: rgba(0, 0, 0, 1);
+    width: 11px;
+  }
+  .btnn1 {
+    cursor: pointer;
+    border: none;
+    background-color: transparent;
+    font-family: Poppins;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 24px;
+    text-align: left;
+    color: rgba(0, 0, 0, 1);
+    width: 40px !important;
+  }
+  .btnn2 {
+    cursor: pointer;
+    border: none;
+    background-color: transparent;
+    color: rgba(0, 0, 0, 1);
+    font-family: Poppins;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 24px;
+    text-align: left;
+    width: 11px;
+    padding-right: 10px;
+  }
+}
+.add {
+  border: 1px solid rgba(0, 0, 0, 1);
+  padding: 17px 48px;
+  border-radius: 15px;
+  background-color: transparent;
+  cursor: pointer;
+  margin-top: 20px;
+  font-family: Poppins;
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 30px;
+  text-align: left;
+  color: rgba(0, 0, 0, 1);
+  margin-left: 10px;
+}
+.btngrupa {
+  display: flex;
+  align-items: center;
+  
+}
+.text{
+  cursor: pointer;
 }

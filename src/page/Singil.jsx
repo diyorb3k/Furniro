@@ -37,19 +37,7 @@ const Singil = () => {
 
   return (
     <>
-      <div className="btn_gred">
-        <button
-          style={{ padding: "4px 16px" }}
-          disabled={count <= 0}
-          onClick={dec}
-        >
-          -
-        </button>
-        <button style={{ padding: "4px 16px" }}>{count}</button>
-        <button style={{ padding: "4px 16px" }} onClick={increment}>
-          +
-        </button>
-      </div>
+      
 
       <div className="heroo">
         <div className="container">
@@ -97,6 +85,26 @@ const Singil = () => {
            <img src={ckol1} alt="" />
            <img src={ckol2} alt="" />
             </div>
+
+
+
+           <div className="btngrupa">
+           <div className="btn_gred layt">
+        <button  className="btnminus"
+          style={{  }}
+          disabled={count <= 0}
+          onClick={dec}
+        >
+          -
+        </button>
+        <div className="btnn1"  style={{  }}>{count}</div>
+        <button className="btnn2" style={{  }} onClick={increment}>
+          +
+        </button>
+          </div>
+             <button className="add">Add To Cart</button>
+             <button className="add">+ Compare</button>
+           </div>
         </div>
         
       </div>

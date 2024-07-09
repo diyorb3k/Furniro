@@ -30,9 +30,6 @@ import "../assets/API/Api8.png";
 import { Link } from "react-router-dom";
 
 const Home = () => {
-
-  
-
   const [albom, setAlbom] = useState([]);
   const [query, setQuery] = useState("");
   useEffect(() => {
@@ -46,18 +43,22 @@ const Home = () => {
       });
   }, []);
 
+  const handleAddToCart = product => {
+    localStorage.setItem('cart', JSON.stringify(product))
+  }
+
   const card = albom
     ?.filter((user) => user.body.toLowerCase().includes(query.toLowerCase()))
     ?.map((el) => {
-      console.log(el);
-
-
 
       return (
         <div className="form card " key={el.id}>
-          <div class="text">Add to cart</div>
+          {/* <Link to={`/corzinka/${el?.id}`}><p class="text">Add to cart</p></Link> */}
+          <p onClick={() => handleAddToCart(el)} class="text">Add to cart</p>
           <img className="APIimg" src={el?.img} alt="is not Defaunt" />
-          <Link to={`/Singilpage/${el.id}`}><p className="titled">{el.title.slice(0, 95)}</p></Link>
+          <Link to={`/Singilpage/${el?.id}`}>
+            <p className="titled">{el.title.slice(0, 95)}</p>
+          </Link>
           <span>{el.body}</span>
           <div className="istoriyaiiscena">
             <p>{el.narxi}</p>
@@ -72,9 +73,15 @@ const Home = () => {
     <>
       <div className="home">
         <div className="container">
-        <form className="formField" action="">
-          <input className="inputt" type="text" placeholder='Search...' value={query} onChange={(e) => setQuery(e.target.value)} />
-        </form>
+          <form className="formField" action="">
+            <input
+              className="inputt"
+              type="text"
+              placeholder="Search..."
+              value={query}
+              onChange={(e) => setQuery(e.target.value)}
+            />
+          </form>
           <div className="card_hero">
             <p>New Arrival</p>
             <h1>Discover Our New Collection</h1>
@@ -146,24 +153,23 @@ const Home = () => {
         </div>
       </div>
       <div className="container">
-       <div className="your">
-       <p>Share your setup with</p>
-       <h4>#FuniroFurniture</h4>
-       </div>
-       <div className="imgcards">
-        <img className="rasim1" src={rasim1} alt="" />
-        <img className="rasim2" src={rasim2} alt="" />
-        <img className="rasim3" src={rasim3} alt="" />
-        <img className="rasim4" src={rasim4} alt="" />
-        <img className="rasim5"  src={rasim5} alt="" />
-        <img className="rasim6"  src={rasim6} alt="" />
-        <img className="rasim7"  src={rasim7} alt="" />
-        <img className="rasim8"  src={rasim8} alt="" />
-        <img className="rasim9"  src={rasim9} alt="" />
-       </div>
+        <div className="your">
+          <p>Share your setup with</p>
+          <h4>#FuniroFurniture</h4>
+        </div>
+        <div className="imgcards">
+          <img className="rasim1" src={rasim1} alt="" />
+          <img className="rasim2" src={rasim2} alt="" />
+          <img className="rasim3" src={rasim3} alt="" />
+          <img className="rasim4" src={rasim4} alt="" />
+          <img className="rasim5" src={rasim5} alt="" />
+          <img className="rasim6" src={rasim6} alt="" />
+          <img className="rasim7" src={rasim7} alt="" />
+          <img className="rasim8" src={rasim8} alt="" />
+          <img className="rasim9" src={rasim9} alt="" />
+        </div>
       </div>
       <div className="namew"></div>
-
     </>
   );
 };
