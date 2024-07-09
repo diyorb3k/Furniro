@@ -27,8 +27,12 @@ import "../assets/API/API5.png";
 import "../assets/API/API6.png";
 import "../assets/API/Api7.png";
 import "../assets/API/Api8.png";
+import { Link } from "react-router-dom";
 
 const Home = () => {
+
+  
+
   const [albom, setAlbom] = useState([]);
   const [query, setQuery] = useState("");
   useEffect(() => {
@@ -46,11 +50,14 @@ const Home = () => {
     ?.filter((user) => user.body.toLowerCase().includes(query.toLowerCase()))
     ?.map((el) => {
       console.log(el);
-      return (
-        <div className="form" key={el.id}>
-          <img className="APIimg" src={el?.img} alt="is not Defaunt" />
-          <p className="titled">{el.title.slice(0, 95)}</p>
 
+
+
+      return (
+        <div className="form card " key={el.id}>
+          <div class="text">Add to cart</div>
+          <img className="APIimg" src={el?.img} alt="is not Defaunt" />
+          <Link to={`/Singilpage/${el.id}`}><p className="titled">{el.title.slice(0, 95)}</p></Link>
           <span>{el.body}</span>
           <div className="istoriyaiiscena">
             <p>{el.narxi}</p>

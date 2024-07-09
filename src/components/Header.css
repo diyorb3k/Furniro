@@ -147,6 +147,8 @@ label {
   }
 }
 .bigo {
+
+  background-color: #fff;
   margin-top: 29px;
   display: flex;
   align-items: center;
@@ -365,4 +367,5 @@ color: rgba(0, 0, 0, 1);
 }
 .inputt{
   padding: 5px;
+  border: 2px solid black;
 }

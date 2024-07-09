@@ -1,9 +1,9 @@
    import './page.scss'
+   import '../components/Header.css'
    const About = () => {
   return (
     <div className='container'>
-     
-      <h1> About PAGE</h1>      
+  
       </div>
   )
 }

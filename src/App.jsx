@@ -7,6 +7,8 @@ import Header from "./components/Header";
 import Cantact from "./page/Cantact";
 import Shop from "./page/Shop";
 import Foter from "./components/Foter";
+import Corzinka from "./page/Corzinka.jsx";
+import Singil from "./page/Singil.jsx";
 
 const App = () => {
   return <Router>
@@ -17,6 +19,8 @@ const App = () => {
      <Route  path="/About" element={<About/>}/>
      <Route  path="/contact" element={<Cantact/>}/>
      <Route  path="/shop" element={<Shop/>}/>
+     <Route  path="/corzinka" element={<Corzinka/>}/>
+     <Route  path="/Singilpage/:id" element={<Singil/>}/>
       </Routes>
    </main>
    <Foter/>
